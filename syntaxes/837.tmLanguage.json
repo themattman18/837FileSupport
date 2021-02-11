@@ -12,20 +12,21 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.837",
-				"match": "\\b(if|while|for|return)\\b"
+				"name": "entity.name.type",
+				"match": "\\b(PRV|PER|HL|LIN|NM1|CTP|N3|N4|CLM|DTP|CL1|REF|K3|HI|OI|SV2|DMG)\\b"
+			},
+			{
+				"name": "entity.name.function",
+				"match": "\\b(ISA|GS|ST|BHT|SE|GE|IEA|SBR\\*(P|S|T))\\b"
+			},
+			{
+				"name": "variable.parameter",
+				"match": "\\b(LX\\*\\d+)\\b"
+			},
+			{
+				"name": "keyword.control",
+				"match": "(\\*|~)"
 			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.837",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.837",
-					"match": "\\\\."
-				}
-			]
 		}
 	},
 	"scopeName": "source.837"
