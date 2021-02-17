@@ -1,5 +1,5 @@
 # 837filesupport README
-This extention prodcides sytax highlighting for 837 Health Care Claim Transaction sets. 837s are used to submit health care claim billing information to payers for adjudication
+This extension prodcides sytax highlighting for 837 Health Care Claim Transaction sets. 837s are used to submit health care claim billing information to payers for adjudication
 
 ## Features
 
@@ -14,4 +14,4 @@ Work-in-progress. Still fine tuning the highlighting
 
 ### 1.0.0
 
-Initial release of extention
+Initial release of extension
