@@ -3,6 +3,7 @@
     "displayName": "837FileSupport",
     "description": "Supports grammar for 837 files",
     "version": "0.0.1",
+    "publisher": "themattman18",
     "engines": {
         "vscode": "^1.53.0"
     },
