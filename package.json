@@ -4,6 +4,10 @@
     "description": "Supports grammar for 837 files",
     "version": "0.0.1",
     "publisher": "themattman18",
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/themattman18/837FileSupport.git"
+    },
     "engines": {
         "vscode": "^1.53.0"
     },
